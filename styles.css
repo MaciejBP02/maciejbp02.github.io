@@ -18,28 +18,17 @@ body {
 
 /* ── THEME: LIGHT (krem / granat) ────────────────────────────── */
 body.theme-light {
-  /* Tło w kolorze ciepłego, szlachetnego pergaminu */
-  --bg:           #FDF8F1; 
-  /* Ciemny, czekoladowy brąz dla kontrastowych sekcji */
-  --bg-alt:       #3D342B; 
-  /* Głęboki antracyt z domieszką brązu (czytelniejszy niż czysta czerń) */
-  --text:         #2D2926; 
-  /* Kolor kawy z mlekiem dla mniej ważnych informacji */
-  --text-muted:   #7D6E5D; 
-  /* Obiecany akcent: stonowana, profesjonalna czerwień (krew wołowa/wiśnia) */
-  --accent:       #A6342E; 
-  /* Miękka czerwień/terakota do hoverów i delikatniejszych elementów */
-  --accent-soft:  #D98471; 
-  /* Złoto zachowane dla spójności z dark mode, ale w cieplejszym tonie */
-  --gold:         #B38B3F; 
-  /* Subtelne obramowania w kolorze sepii */
-  --border:       rgba(61, 52, 43, 0.12);
-  /* Karty z delikatnym połyskiem, odcinające się od tła */
-  --card-bg:      #FFFFFF;
-  /* Ciepły, brązowy cień zamiast szarego – dodaje głębi "3D" */
-  --shadow:       0 8px 30px rgba(61, 52, 43, 0.08);
-  /* Rozmyte tło nawigacji */
-  --nav-bg:       rgba(253, 248, 241, 0.90);
+  --bg:           #F7F0E6;
+  --bg-alt:       #EDE3D4;
+  --text:         #2B1F12;
+  --text-muted:   #6B5440;
+  --accent:       #7A3B1E;
+  --accent-soft:  #C47A3A;
+  --gold:         #C9964A;
+  --border:       rgba(122, 59, 30, 0.15);
+  --card-bg:      rgba(255, 248, 238, 0.70);
+  --shadow:       0 2px 24px rgba(122, 59, 30, 0.10);
+  --nav-bg:       rgba(247, 240, 230, 0.95);
 }
 }
 
