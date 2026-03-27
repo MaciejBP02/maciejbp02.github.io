@@ -14,7 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const themeBtn    = document.getElementById('themeToggle');
   const THEME_KEY   = 'portfolio-theme';
 
-  const savedTheme  = localStorage.getItem(THEME_KEY) || 'light';
+  const savedTheme  = localStorage.getItem(THEME_KEY) || 'dark';
   applyTheme(savedTheme);
 
   themeBtn.addEventListener('click', () => {
