@@ -18,17 +18,23 @@ body {
 
 /* ── THEME: LIGHT (krem / granat) ────────────────────────────── */
 body.theme-light {
-  --bg:           #F7F4EF;
-  --bg-alt:       #6D848B;
-  --text:         #C80017;
-  --text-muted:   #6D848B;
-  --accent:       #1a1a6e;
-  --accent-soft:  #2d2d9a;
-  --gold:         #8b6914;
-  --border:       rgba(26, 26, 110, 0.18);
-  --card-bg:      rgba(255,255,255,0.55);
-  --shadow:       0 2px 24px rgba(26,26,110,0.08);
-  --nav-bg:       rgba(245,240,232,0.92);
+  --bg:           #F4F1EA;   /* kość słoniowa */
+  --bg-alt:       #E7E2D8;   /* delikatne przełamanie */
+  
+  --text:         #1F2A44;   /* głęboki granat zamiast czerwieni */
+  --text-muted:   #6C7280;   /* spokojna szarość */
+
+  --accent:       #1F2A44;   /* granat jako główny akcent */
+  --accent-soft:  #3A4663;   /* jaśniejszy granat */
+
+  --gold:         #C9A84C;   /* ten sam złoty co w dark → spójność */
+
+  --border:       rgba(31, 42, 68, 0.14);
+  --card-bg:      rgba(255,255,255,0.7);
+
+  --shadow:       0 4px 28px rgba(31,42,68,0.08);
+
+  --nav-bg:       rgba(244,241,234,0.92);
 }
 
 /* ── THEME: DARK (grafit / złoto) ────────────────────────────── */
