@@ -18,11 +18,11 @@ body {
 
 /* ── THEME: LIGHT (krem / granat) ────────────────────────────── */
 body.theme-light {
-  --bg:           #F7F0E6;
+  --bg:           #dcc4a2;
   --bg-alt:       #EDE3D4;
   --text:         #2B1F12;
   --text-muted:   #6B5440;
-  --accent:       #b70202;
+  --accent:       #d2963c;
   --accent-soft:  #C47A3A;
   --gold:         #C9964A;
   --border:       rgba(122, 59, 30, 0.15);
