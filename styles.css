@@ -18,9 +18,9 @@ body {
 
 /* ── THEME: LIGHT (krem / granat) ────────────────────────────── */
 body.theme-light {
-  --bg:           #f5f0e8;
+  --bg:           #dedbbc;
   --bg-alt:       #ede8df;
-  --text:         #1a1a2e;
+  --text:         #581800;
   --text-muted:   #5c5c7a;
   --accent:       #1a1a6e;
   --accent-soft:  #2d2d9a;
