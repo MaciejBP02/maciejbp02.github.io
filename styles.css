@@ -17,7 +17,7 @@ body {
 }
 
 /* ── THEME: LIGHT (krem / granat) ────────────────────────────── */
-body.theme-light {
+body.theme-dark {
   --bg:           #F7F0E6;
   --bg-alt:       #EDE3D4;
   --text:         #2B1F12;
@@ -33,7 +33,7 @@ body.theme-light {
 }
 
 /* ── THEME: DARK (grafit / złoto) ────────────────────────────── */
-body.theme-dark {
+body.theme-light {
   --bg:           #1c1c1f;
   --bg-alt:       #252528;
   --text:         #ede8df;
