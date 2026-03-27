@@ -18,17 +18,28 @@ body {
 
 /* ── THEME: LIGHT (krem / granat) ────────────────────────────── */
 body.theme-light {
-  --bg:           #dcc4a2;
-  --bg-alt:       #EDE3D4;
-  --text:         #2B1F12;
-  --text-muted:   #6B5440;
-  --accent:       #d2963c;
-  --accent-soft:  #C47A3A;
-  --gold:         #C9964A;
-  --border:       rgba(122, 59, 30, 0.15);
-  --card-bg:      rgba(255, 248, 238, 0.70);
-  --shadow:       0 2px 24px rgba(122, 59, 30, 0.10);
-  --nav-bg:       rgba(247, 240, 230, 0.95);
+  /* Tło w kolorze bardzo delikatnej kości słoniowej - cieplejsze niż biały, ale profesjonalne */
+  --bg:           #FCF9F5; 
+  /* Ciemny, niemal kawowy brąz dla sekcji alternatywnych */
+  --bg-alt:       #3D2B1F; 
+  /* Głęboki antracyt z domieszką brązu zamiast czystej czerni (łatwiejszy dla oczu) */
+  --text:         #2D241E; 
+  /* Stonowany brązowo-szary */
+  --text-muted:   #8C7B6E; 
+  /* PRZEŁAMANIE: Energiczny, miedziany pomarańcz/terakota - to Twój główny punkt uwagi */
+  --accent:       #D35400; 
+  /* Delikatniejszy odcień akcentu do hoverów lub tła przycisków */
+  --accent-soft:  #E67E22; 
+  /* Klasyczne, matowe złoto dla detali */
+  --gold:         #B8860B; 
+  /* Subtelne linie w kolorze tła alt, ale z bardzo niską przezroczystością */
+  --border:       rgba(61, 43, 31, 0.12);
+  /* Karty z delikatnym efektem "glassmorphism", lekko jaśniejsze od tła */
+  --card-bg:      #FFFFFF;
+  /* Ciepły, miękki cień z odcieniem brązu */
+  --shadow:       0 8px 30px rgba(61, 43, 31, 0.08);
+  /* Półprzezroczysta nawigacja z efektem rozmycia (backdrop-filter w CSS) */
+  --nav-bg:       rgba(252, 249, 245, 0.9);
 }
 
 /* ── THEME: DARK (grafit / złoto) ────────────────────────────── */
